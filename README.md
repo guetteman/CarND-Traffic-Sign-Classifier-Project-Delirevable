@@ -200,8 +200,7 @@ import random
 select_random_images_by_classes(X_train, y_train, n_train)
 ```
 This code shows 43 random images (1 per class):
-
-<img src="./signs_color_1.png" alt="Traffic Signs Classifier" style="height: 60px;"/>
+![Initial Dataset](./signs_color_1.png)
 
 ### 6. The next thing to do is to see how the dataset is distributed. So, I used the next two code blocks to see in a bar chart the `# Training Data` vs `Classes`:
 
@@ -295,6 +294,7 @@ for i in range(0, 100):
 
 show_images(images)
 ```
+![Initial Dataset](./signs_augmented.png)
 
 So, from one image, we can create thousands of new images. This will make our dataset a more robust one.
 
