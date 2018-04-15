@@ -635,11 +635,7 @@ My final model results were:
 * validation set accuracy of 0.987 
 * test set accuracy of 1
 
-* What architecture was chosen?
-
 I chose LeNet architecture because, as we see in the course, I it is a great model architecture for classifying images. I wanted to try this one before anything else, and as I found that it has a great performance, in addition to the augmentation techniques, I prefered this solution, simple and solve the problem.
-
-* Why did you believe it would be relevant to the traffic sign application?
 
 This application will help to a self-driving car to understand, as well as we do, what comes ahead on the road and predict what actions it should have to make given the time.
 
