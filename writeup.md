@@ -472,6 +472,7 @@ loss_operation = tf.reduce_mean(cross_entropy)
 optimizer = tf.train.AdamOptimizer(learning_rate = rate)
 training_operation = optimizer.minimize(loss_operation)
 ```
+I used AdamOptimizer because it uses the **momentum** which helps to use a large effective step size, and the algorithm will converge to this step size without fine tunning [see here](https://arxiv.org/pdf/1206.5533.pdf).
 
 ```
 correct_prediction = tf.equal(tf.argmax(logits, 1), tf.argmax(one_hot_y, 1))
